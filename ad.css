@@ -1,0 +1,125 @@
+#Home{
+    height: 600px;
+    background-image: url(pet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   background-attachment: scroll;
+}
+#serve{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#serve img{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+}
+#Services{
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+   
+    
+}
+ul li{
+    display: inline;
+    padding: 40px;
+    color: black;
+    margin-bottom: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+#dogbreeds{
+   height: 450px;
+  
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#rott,#pitbull,#gs,#shitzu,#husky,#sorry1{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    padding: 40px;
+}
+#gs:hover{
+    transform: scale(2,2);
+}
+#husky:hover{
+    transform: scale(2,2);
+}
+#shitzu:hover{
+    transform: scale(2,2);
+}   
+#pitbull:hover{
+    transform: scale(2,2);
+}
+#rott:hover{
+    transform: scale(2,2);
+}
+h3{
+    text-align: center;
+    color: red;
+}
+#catbreeds{
+    height: 450px;
+   
+    background-color: rgb(171, 110, 172);
+    display: flex;
+    flex-direction: row;
+    
+}
+#persian,#snow,#munch,#laperm,#siamese,#sorry2{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    padding: 40px;
+}
+#persian:hover{
+    transform: scale(2,2);
+}
+#snow:hover{
+    transform: scale(2,2);
+}
+#munch:hover{
+    transform: scale(2,2);
+}   
+#laperm:hover{
+    transform: scale(2,2);
+}
+#siamese:hover{
+    transform: scale(2,2);
+}
+#dogbreeds img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#catbreeds img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#About p{
+    background-color: papayawhip;
+}
+#Videos video{
+    height: 900px;
+    width: 100%;
+}
+#reply{
+    height: 500px;
+    width: 500px;
+    background-color: chocolate;
+    
+}
+#reply div{
+    padding: 20px;
+}
